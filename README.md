@@ -42,7 +42,7 @@ First, ensure that Python is installed on your machine. To check if Python is al
 python --version
 
 
-Step 2: Create a Python Virtual Environment
+### Step 2: Create a Python Virtual Environment
 Using a virtual environment is recommended to keep your dependencies isolated. To create a virtual environment, open a terminal and navigate to your project directory. Run the following command:
 
 bash
@@ -50,7 +50,7 @@ Copy code
 python -m venv venv
 This command will create a new folder called venv in your project directory, which contains an isolated Python environment.
 
-Step 3: Activate the Virtual Environment
+### Step 3: Activate the Virtual Environment
 Once the virtual environment is created, you need to activate it.
 
 Windows:
@@ -63,7 +63,7 @@ Copy code
 source venv/bin/activate
 You should see (venv) at the beginning of the command line, indicating that the virtual environment is now active.
 
-Step 4: Install Required Dependencies
+### Step 4: Install Required Dependencies
 With the virtual environment activated, the next step is to install the necessary Python libraries. These libraries are listed in the requirements.txt file. To install them, run:
 
 bash
@@ -74,7 +74,7 @@ This will install all the dependencies needed to run the project.
 Running the Script
 Once the setup is complete and the dependencies are installed, you can run the script.
 
-Step 1: Run the Script
+### Step 1: Run the Script
 To run the script, execute the following command in the terminal (make sure you are in the project directory and the virtual environment is activated):
 
 bash
